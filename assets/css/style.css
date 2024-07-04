@@ -87,9 +87,11 @@ body {
 }
 
 .input-field input::-webkit-outer-spin-button,
-.input-field input::-webkit-inner-spin-button, {
+.input-field input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
     appearance: none;
 }
+
 
 .input-field input>focus {
     outline: none;
